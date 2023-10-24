@@ -8,15 +8,15 @@
       "executor": "@nx/cypress:cypress",
       "options": {
         "cypressConfig": "e2e/cypress.config.ts",
-        "devServerTarget": "myngapp:serve:development",
+        "devServerTarget": "nx-angular:serve:development",
         "testingType": "e2e"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "myngapp:serve:production"
+          "devServerTarget": "nx-angular:serve:production"
         },
         "ci": {
-          "devServerTarget": "myngapp:serve-static"
+          "devServerTarget": "nx-angular:serve-static"
         }
       }
     },
@@ -29,5 +29,5 @@
     }
   },
   "tags": [],
-  "implicitDependencies": ["myngapp"]
+  "implicitDependencies": ["nx-angular"]
 }

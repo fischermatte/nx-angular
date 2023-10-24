@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'myngapp',
+  displayName: 'nx-angular',
   preset: './jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: './coverage/myngapp',
+  coverageDirectory: './coverage/nx-angular',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
